@@ -1,8 +1,10 @@
 title:            NiKiZh
 description:      Personal blog of Nikolay Zhekov
-disqus_shortname: 
+disqus_shortname:
+reading_time:     true
+words_per_minute: 200 
 #Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://nikizh.com
+url: http://nikizh.com
 
 # Owner/author information
 owner:
@@ -20,6 +22,7 @@ owner:
   flickr:         
   tumblr:         
   # For Google Authorship https://plus.google.com/authorship
+  # google plus id, include the '+', eg +mmistakes
   google_plus:   
 
 # Background image to be tiled on all pages
@@ -66,4 +69,4 @@ kramdown:
     coderay_bold_every: 10
     coderay_css: class
 
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
