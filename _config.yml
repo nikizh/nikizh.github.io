@@ -1,29 +1,29 @@
 title:            NiKiZh
 description:      Personal blog of Nikolay Zhekov
 disqus_shortname:
-reading_time:     false
-words_per_minute: 200 
-#Your site's domain goes here. Leave localhost server or blank when working locally.
-url: http://nikizh.com
+reading_time:     true
+words_per_minute: 200
+# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
+# When testing locally leave blank or use http://localhost:4000
+url: //nikizh.com
 
 # Owner/author information
 owner:
   name:           Nikolay Zhekov
   avatar:         avatar.png
-  bio:            "Software Developer living in Glasgow, Scotland"
-  email:          nikizh@gmail.com
+  bio:            "Software Developer living in London, UK"
+  # email:          nikizh@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        nikizh
   facebook:       
   github:         nikizh
-  stackexchange:
+  stackexchange:  
   linkedin:       nikolayzhekov
   instagram:      nikizh
   flickr:         
   tumblr:         
-  # For Google Authorship https://plus.google.com/authorship
   # google plus id, include the '+', eg +mmistakes
-  google_plus:   
+  google_plus:
 
 # Background image to be tiled on all pages
 background: 
@@ -34,20 +34,16 @@ google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
 
-# Links to include in top navigation
-# For external links add external: true
-# links:
-#  - title: Theme Setup
-#    url: /theme-setup
-#  - title: External Link
-#    url: http://mademistakes.com
-#    external: true
-
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Europe/London
 future:      true
 highlighter: pygments
 markdown:    kramdown
+gems:
+  - jekyll-sitemap
+sass:
+  sass_dir: _sass
+  style: compressed
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /blog/:year/:month/:day/:title
@@ -69,4 +65,5 @@ kramdown:
     coderay_bold_every: 10
     coderay_css: class
 
+include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
