@@ -1,3 +1,1 @@
-# NiKiZh.com
-
-Personal website
+# Archived Personal website
